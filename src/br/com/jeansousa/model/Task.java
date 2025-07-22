@@ -3,7 +3,7 @@ package br.com.jeansousa.model;
 public class Task {
 
 
-    // Variáveis do projeto
+    // Variáveis da Task
     private int id;     // Identificador único
     private String title;   // Texto com titulo da tarefa
     private String description;     // Texto com a descrição da tarefa

@@ -9,5 +9,4 @@ public class Task {
     private String description;     // Texto com a descrição da tarefa
     private boolean done;       // Verdadeiro ou Falso indicando se a tarefa esta feita ou não
 
-
 }

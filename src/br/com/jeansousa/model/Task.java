@@ -16,4 +16,32 @@ public class Task {
         this.description = description;
         this.done = done;
     }
+
+    // Getters (Pegar Valor)
+    public int getId() {
+        return id;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public boolean isDone() {
+        return done;
+    }
+
+    // Setters (Mudar Valor)
+    public void setId(int id) {
+        this.id = id;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public void setDone(boolean done) {
+        this.done = done;
+    }
 }
